@@ -15,11 +15,7 @@ microservices-netcole-flix
 ├── eureka-server
 ├── docker-compose.yml
 ├── README.md
-├── mpd-subscriber.png
-├── mpd-movie.png
-└── scripts
-    ├── subscriber.sql
-    └── movie.sql
+
 ```
 
 ## 📝 Description des microservices
