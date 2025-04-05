@@ -87,11 +87,6 @@ CREATE TABLE Movie(
 );
 ```
 
-## 📋 Ressources fournies
-- `scripts/` → contient les scripts SQL à exécuter dans PostgreSQL
-- `mpd-subscriber.png` et `mpd-movie.png` → diagrammes physiques des deux services
-- Ce fichier `README.md`
-
 ## 📆 À vous de jouer !
 Créez chaque microservice avec Spring Boot et les dépendances nécessaires :
 - Spring Web, Spring Data JPA, PostgreSQL Driver
