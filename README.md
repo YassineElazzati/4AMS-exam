@@ -23,6 +23,8 @@ microservices-netcole-flix
 ### 1. 📅 `subscriber-service`
 Gère les abonnés, leurs abonnements et paiements associés.
 
+![alt text](image.png)
+
 #### Tables concernées (3NF)
 ```sql
 CREATE TABLE Subscriber(
@@ -56,6 +58,7 @@ CREATE TABLE Payment(
 
 ### 2. 🎬 `movie-service`
 Permet la gestion des films avec leurs catégories et réalisateurs.
+![alt text](image-1.png)
 
 #### Tables concernées (3NF)
 ```sql
