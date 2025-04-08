@@ -37,7 +37,7 @@ CREATE TABLE Subscriber(
 );
 
 CREATE TABLE Subscription(
-   subscription_id VARCHAR(50),
+   subscription_id SERIAL,
    type VARCHAR(50),
    price NUMERIC(15,2),
    duration_months INTEGER,
