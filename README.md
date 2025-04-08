@@ -48,7 +48,7 @@ CREATE TABLE Payment(
    Id_Payment SERIAL,
    amount NUMERIC(15,2),
    payment_date DATE,
-   subscription_id VARCHAR(50) NOT NULL,
+   subscription_id INTEGER NOT NULL,
    subscriber_id INTEGER NOT NULL,
    PRIMARY KEY(Id_Payment),
    FOREIGN KEY(subscription_id) REFERENCES Subscription(subscription_id),
